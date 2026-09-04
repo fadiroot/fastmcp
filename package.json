@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "dist/FastMCP.js",
   "scripts": {
-    "build": "tsup",
+    "build": "node api.js && tsup",
     "lint": "prettier --check . && eslint . && tsc --noEmit && jsr publish --dry-run",
     "test": "vitest run",
     "test:openapi": "OPENAPI_NETWORK=1 vitest run src/openapi/fromOpenAPI.benchmark.test.ts src/openapi/fromOpenAPI.live.test.ts",
@@ -53,7 +53,7 @@
     "file-type": "^21.1.1",
     "fuse.js": "^7.1.0",
     "hono": "^4.11.5",
-    "mcp-proxy": "^6.4.6",
+    "mcp-proxy": "^6.7.13",
     "strict-event-emitter-types": "^2.0.0",
     "uri-templates": "^0.2.0",
     "xsschema": "^0.4.3",
