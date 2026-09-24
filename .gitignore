@@ -1,7 +1,10 @@
 dist
 node_modules
 !.prettierignore
+temp_auto_push.bat
 .envrc
 .idea
 CLAUDE.local.md
 .claude/settings.local.json
+.gitignore
+branch_structure.json
