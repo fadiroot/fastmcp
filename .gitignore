@@ -1,8 +1,6 @@
 dist
 node_modules
 !.prettierignore
-temp_auto_push.bat
 .envrc
 .idea
-CLAUDE.local.md.gitignore
-branch_structure.json
+CLAUDE.local.md
